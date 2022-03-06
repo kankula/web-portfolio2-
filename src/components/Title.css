@@ -1,4 +1,6 @@
-
+.title {
+    display: none;
+}
 
 .title .box-content {
     width: 100%;
@@ -12,7 +14,7 @@
 .title .box-content .text-1 {
     font-size: 2em;
     font-weight: 800;
-    color: #000;
+    color: #fff;
 }
 .title .box-content .text-1 span {
     color: deepskyblue;
@@ -21,7 +23,7 @@
 .title .box-content .text-2 {
     font-size: 5rem;
     font-weight: 700;
-    color: #000;
+    color: #fff;
 }
 .title .box-content .text-2 span {
     color: deepskyblue;
@@ -30,17 +32,43 @@
 }
 @keyframes aniText {
         0% {
-            color: #000;
+            color: #fff;
         }
         50% {
             color: deepskyblue;
         }
         100% {
-            color: #000;
+            color: #fff;
         }
 }
 .title .box-content .text-3 {
     font-size: 3em;
     font-weight: 600;
-    color: #000;
+    color: #fff;
+}
+
+.title.active-c {
+    display: block;
+}
+
+@media (max-width: 1400px) {
+    .title .box-content .text-2 {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 805px) {
+    .title .box-content .text-2 {
+        font-size: 3rem;
+    }
+    .title .box-content .text-3 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 630px) {
+    .title .box-content .text-2 {
+        font-size: 2rem;
+    }
+    .title .box-content .text-3 {
+        font-size: 1rem;
+    }
 }

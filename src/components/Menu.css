@@ -8,4 +8,16 @@
     margin-left: 2rem;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+.tab.active-t {
+    color: dodgerblue;
+}
+
+@media (max-width: 805px) {
+
+    .menu li {
+        font-size: 1rem;
+    }
 }

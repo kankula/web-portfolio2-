@@ -1,0 +1,31 @@
+.elucational {
+    display: none;
+    width: 100%;
+}
+.elucational .box {
+    margin: 4rem;
+}
+.elucational .box h3 {
+    color: #fff;
+    font-size: 3rem;
+}
+.elucational .box p {
+    font-size: 2rem;
+    color: #fff;
+}
+.elucational .box p span {
+    color: dodgerblue;
+    margin-right: 2rem;
+}
+.elucational.active-c {
+    display: block;
+}
+
+@media (max-width: 805px) {
+    .elucational .box h3 {
+        font-size: 2rem;
+    }
+    .elucational .box p {
+        font-size: 1.5rem;
+    }
+}

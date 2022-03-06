@@ -2,9 +2,9 @@ import React from 'react'
 import ProfilePic from '../images/p1.jpg'
 import './Profile.css'
 
-export const Profile = () => {
+export const Profile = (props) => {
     return (
-        <div className='profile-container'>
+        <div id='profileS' className='profile-container'>
             <div className='imageProfile'>
                 <img src={ProfilePic} className="ProfilePic" />
             </div>
