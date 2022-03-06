@@ -1,0 +1,123 @@
+.skills .max-width {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.skills .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills .box h1 {
+    color: #fff;
+    font-size: 4em;
+}
+.skills .box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box-content .box-item {
+    width: 250px;
+    height: 280px;
+    margin: 10px;
+    position: relative;
+    background: #fff;
+}
+.skills .box-content .box-item i {
+    position: absolute;
+    font-size: 13em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: crimson;
+    z-index: 10;
+    transition: .30s;
+}
+.skills .box-content .box-item .skillName {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    font-size: 2em;
+    font-weight: 500;
+    width: 100%;
+    transition: .30s;
+    z-index: 9;
+}
+
+.skills .box-content .box-item:nth-child(1) i{
+    background: #ff5733;
+}
+.skills .box-content .box-item:nth-child(1) .skillName{
+    color: #ff5733;
+}
+.skills .box-content .box-item:nth-child(1):hover i{
+    font-size: 8rem;
+    height: 80%;
+    background: #fff;
+    color: #ff5733;
+}
+.skills .box-content .box-item:nth-child(1):hover .skillName{
+    color: #fff;
+    background: #ff5733;
+}
+.skills .box-content .box-item:nth-child(2) i{
+    background: #3091ff;
+}
+.skills .box-content .box-item:nth-child(2) .skillName{
+    color: #3091ff;
+}
+.skills .box-content .box-item:nth-child(2):hover i{
+    font-size: 8rem;
+    height: 80%;
+    background: #fff;
+    color: #3091ff;
+}
+.skills .box-content .box-item:nth-child(2):hover .skillName{
+    color: #fff;
+    background: #3091ff;
+}
+.skills .box-content .box-item:nth-child(3) i{
+    background: #ffc300;
+}
+.skills .box-content .box-item:nth-child(3) .skillName{
+    color: #ffc300;
+}
+.skills .box-content .box-item:nth-child(3):hover i{
+    font-size: 8rem;
+    height: 80%;
+    background: #fff;
+    color: #ffc300;
+}
+.skills .box-content .box-item:nth-child(3):hover .skillName{
+    color: #fff;
+    background: #ffc300;
+}
+.skills .box-content .box-item:nth-child(4) i{
+    background: #30c7ff;
+}
+.skills .box-content .box-item:nth-child(4) .skillName{
+    color: #30c7ff;
+}
+.skills .box-content .box-item:nth-child(4):hover i{
+    font-size: 8rem;
+    height: 80%;
+    background: #fff;
+    color: #30c7ff;
+}
+.skills .box-content .box-item:nth-child(4):hover .skillName{
+    color: #fff;
+    background: #30c7ff;
+}
+
+.active-c {
+    display: block;
+}

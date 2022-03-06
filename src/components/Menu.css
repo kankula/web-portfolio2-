@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    justify-content: right;
+}
+.menu li {
+    list-style: none;
+    font-size: 2rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}

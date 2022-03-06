@@ -1,0 +1,21 @@
+.profile-container {
+    min-width: 400px;
+    flex-basis: 27%;
+    height: auto;
+    background: #fff;
+    padding: 2rem;
+}
+.imageProfile {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.imageProfile .ProfilePic {
+    width: 100%;
+}
+.profile-content p{
+    font-size: 1.8rem;
+}
+.profile-content p span {
+    font-weight: bold;
+    margin-right: 1rem;
+}
